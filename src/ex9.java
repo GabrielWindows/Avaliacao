@@ -6,7 +6,7 @@ public class ex9 {
         System.out.print("Digite uma temperatura em graus Celsius: ");
         float C = ler.nextInt();
 
-        float F = (C * (9/5) + 32);
+        double F = (C * 1.8 + 32);
 
         System.out.printf("%.0f graus celsius = %.2f graus Fahrenheit", C, F);
     }
